@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  margin-right: 0;
+}
+
+body {
+  font-family: PT + Sans;
+} 
+.headcontainer1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 880px;
+}
+.logo1 {
+  flex-direction: row;
+  height: 2px;
+  margin-top: 43px;
+  font-size: 22px;
+  font-weight: 500px;
+  margin-left: 125px;
+}
+.nav-item {
+  flex-direction: row;
+  height: 2px;
+  display: flex;
+  font-size: x-small;
+  gap: 33px;
+  margin-top: 55px;
+  width: hug(266px);
+height:hug(18px); }
+
+.headcontainer2 {
+  display: flex;
+  margin-top: 85px;
+  margin-left: 125px;
+  flex-wrap: wrap;
+  
+}
+.group-phone {
+  display: flex;
+  padding-bottom: 0.5px;
+}
+
+.hero {
+  display: flex;
+  background-color: #5c1a8d;
+  justify-content: center;
+  width: 1080px;
+  flex-wrap: wrap;
+}
+.hero-info {justify-content: center;
+  background-color: #5c1a8d;
+  color: white; width: 1360px;px;
+  padding-top: 100px;
+
+  
+  
+}
+
+.line2 {justify-content: center;
+  margin-top: 60px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 0px;font-size: 30px
+}
+
+
+.line3 {justify-content: center;
+  margin-top: 60px;
+  text-align: center;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 0px; margin-bottom: 0px;
+font-size: -10px
+}
+
+.hero-info > div{justify-content: center; margin-left: ;}
+
+.hero2 {
+  display: flex;
+  background-color: #5c1a8d;
+  justify-content: center;
+  gap: 30px;
+  text-align: left;
+  width: 1360px;
+}
+.phoneimg2 {
+  color: white;
+  width: 614px;
+  padding-bottom: 20px;
+  margin-left: 294px;
+  top: 200px;
+  flex: 1;
+  flex-direction: row;
+}
+
+.phoneimg3 {
+  color: white;
+  width: 469px;
+  margin-right: 800px;
+  margin-bottom: 50px;
+  flex: 1;
+  flex-direction: row;
+  margin-top: 130px;
+}
+
+.whyparent {
+  display: flex;
+  justify-content: center;
+  height: 41px;
+  width: 41;font-size: 25px;
+}
+
+.why {
+  justify-content: center;
+  margin-top: 60px;
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.parenthero3 {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+.phoneimg4 {
+  width: 614px;
+  padding-bottom: 20px;
+  margin-left: 291px;
+  top: 1975px;
+  flex: 1;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  flex-direction: column;
+  padding: 50px 40px 40px 20px;
+  width: 1360px;
+}
+
+.das {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.das > big {
+  font-size: 27px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 24px;
+}
+.btn > button {
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: #ffffff;
+  border-radius: 0px;
+}
+
+.btn > input {
+  flex-direction: row;
+}
+
+.parentcopy-right {
+  height: 50px;
+  background: #deb63d;
+  display: flex;
+  padding: 40px 50px;
+  width: 1360px;
+  gap: 600px;
+}
+
+
+.copy1 {
+  flex-direction: row;font-size: 13px; font-family: PT + Sans;
+}
+
+.faright {
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1215px) {
+  .hero-image {
+    max-width: 50%px;
+  }
+  .nav-item {
+    margin-top: 1rem;
+  }
+}
+.hero {
+  flex-direction: column;
+  max-width: 20%;
+}
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  max-width: 329;
+}
+
+@media (max-width: 450px) {
+}
